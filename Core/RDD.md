@@ -1,3 +1,23 @@
+#  RDD
+
+    RDD(Resilient Distributed Dateset)，弹性分布式数据集。
+
+# 特点
+    
+    RDD内部由partition组成
+        读取HDFS时
+        
+    算子(函数)作用在partition上
+    rdd之间有依赖关系
+    分区器作用在kv格式的RDD上
+    partition提供计算的最佳位置
+        计算向数据移动
+    
+    图例        
+    
+
+
+
 
 
 Spark编程模型RDD设计以及运行原理
